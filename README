@@ -1,0 +1,19 @@
+ASUSTek AI remote for Linux
+
+Since I bought an ASUSTeK P5B-Premium Vista edition, it came
+with an AI remote, and I wanted to enjoy it in linux (Ubuntu).
+
+I stumbled upon Hogwog's python code here:
+http://www.linux.com/community/blogs/ASUS-Ai-Remote-driver.html
+
+His code worked, but didn't do some of the stuff I wanted,
+such as moving inside the videos, therefore I forked it and
+put it on github for others to do the same.
+
+TODO:
+Things I hope I'll do one day:
+ - maybe port it in perl because I'm not so fluent in Python
+ - allow application recognition to enable different bindings
+ - make bindings configurable per user in a RC
+ - enhance the driver removal code, as this should be done
+   at the OS level using quirks to avoid running it as root
